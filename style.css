@@ -1,16 +1,39 @@
 body {
-  background-color: #851954;
-  font-famyli: Arial, sans-serif;
-  color: #f9f9f9;
-
+  background-color: #FFFFE0; /* Warna kuning cerah */
+  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+  color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
 .kartu-profil {
-  width: 300px
+  width: 300px;
+  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px; /* Membuat sudut menjadi melengkung */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+  text-align: center; /* Menengahkan semua teks di dalam kartu */
+}
+```[cite: 1]
+
+---
+
+**2. Kode di sisi kiri (dengan perbaikan kesalahan ketik):**
+*(Catatan: Pada gambar sebelah kiri terdapat salah ketik pada `font-famyli` dan `border radius` tanpa tanda hubung. Berikut adalah versi yang sudah diperbaiki agar berfungsi dengan benar)*[cite: 1]
+
+```css
+body {
+  background-color: #051954;
+  font-family: Arial, sans-serif;
+  color: #f9f9f9;
+}
+
+.kartu-profil {
+  width: 300px;
   margin: 50px auto;
   padding: 20px;
   background-color: white;
   border-radius: 15px;
-  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
 }
+```[cite: 1]
